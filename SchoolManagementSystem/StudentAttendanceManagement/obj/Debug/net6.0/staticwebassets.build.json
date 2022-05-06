@@ -1,11 +1,54 @@
 {
   "Version": 1,
-  "Hash": "CO/RShzv+Ky+GQd/C1ueVDWfrFANZ6x3FK+ECXz/qaU=",
+  "Hash": "UPmUmJwWEOyxt2DQF82BlKmsXge/p6MN8thT1Z+aPO0=",
   "Source": "StudentAttendanceManagement",
   "BasePath": "_content/StudentAttendanceManagement",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "StudentAttendanceManagement\\wwwroot",
+      "Source": "StudentAttendanceManagement",
+      "ContentRoot": "D:\\WorkingCopy\\UdemyNetCore-Assignment\\SchoolManagementSystem\\StudentAttendanceManagement\\wwwroot\\",
+      "BasePath": "_content/StudentAttendanceManagement",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\WorkingCopy\\UdemyNetCore-Assignment\\SchoolManagementSystem\\StudentAttendanceManagement\\wwwroot\\Assests\\css\\custom-swagger-ui.css",
+      "SourceId": "StudentAttendanceManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\WorkingCopy\\UdemyNetCore-Assignment\\SchoolManagementSystem\\StudentAttendanceManagement\\wwwroot\\",
+      "BasePath": "_content/StudentAttendanceManagement",
+      "RelativePath": "Assests/css/custom-swagger-ui.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Assests\\css\\custom-swagger-ui.css"
+    },
+    {
+      "Identity": "D:\\WorkingCopy\\UdemyNetCore-Assignment\\SchoolManagementSystem\\StudentAttendanceManagement\\wwwroot\\Assests\\css\\theme-newspaper.css",
+      "SourceId": "StudentAttendanceManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\WorkingCopy\\UdemyNetCore-Assignment\\SchoolManagementSystem\\StudentAttendanceManagement\\wwwroot\\",
+      "BasePath": "_content/StudentAttendanceManagement",
+      "RelativePath": "Assests/css/theme-newspaper.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Assests\\css\\theme-newspaper.css"
+    }
+  ]
 }

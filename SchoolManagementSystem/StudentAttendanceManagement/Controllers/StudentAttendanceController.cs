@@ -3,6 +3,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace StudentAttendanceManagement.Controllers
 {
+    /// <summary>
+    /// Controller của Student Attendance
+    /// </summary>
     [ApiController]
     [Route("api/[controller]/[action]")]
     //[Route("[controller]")]
@@ -20,6 +23,8 @@ namespace StudentAttendanceManagement.Controllers
         /// 
         ///     GET /api/StudentAttendance/Get
         /// </remarks>
+        /// <response code="200">Thật tuyệt vời không thể tin nỗi</response>
+        /// <response code="500">Xong phin rồi, lo viết resignation letter đi pa</response>
         [HttpGet]
         public IEnumerable<StudentAttendanceDetailsModel> Get()
         {
