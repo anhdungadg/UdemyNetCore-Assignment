@@ -3,8 +3,23 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace StudentAttendanceManagement.Controllers
 {
-    public class StudentAttendanceController : Controller
+    [ApiController]
+    [Route("api/[controller]/[action]")]
+    //[Route("[controller]")]
+    public class StudentAttendanceController : ControllerBase
     {
+        private static List<StudentAttendanceDetailsModel> _studentAttendanceDetails= new List<StudentAttendanceDetailsModel>();
+
+
+        /// <summary>
+        /// Lấy dữ liệu danh sách sinh viên
+        /// </summary>
+        /// <returns>StudentAttendanceDetailsModel object</returns>
+        /// <remarks>
+        /// Sample request
+        /// 
+        ///     GET /api/StudentAttendance/Get
+        /// </remarks>
         [HttpGet]
         public IEnumerable<StudentAttendanceDetailsModel> Get()
         {
@@ -21,84 +36,17 @@ namespace StudentAttendanceManagement.Controllers
                 AttendencePercentage = 71.02
             };
 
-            List<StudentAttendanceDetailsModel> list = 
-                new List<StudentAttendanceDetailsModel> { obj1, obj2 };
-            return list;
+            _studentAttendanceDetails.Add(obj1);
+            _studentAttendanceDetails.Add(obj2);
+            return _studentAttendanceDetails;
         }
 
-        // GET: StudentAttendanceController
-        public ActionResult Index()
-        {
-            return View();
-        }
-
-        // GET: StudentAttendanceController/Details/5
-        public ActionResult Details(int id)
-        {
-            return View();
-        }
-
-        // GET: StudentAttendanceController/Create
-        public ActionResult Create()
-        {
-            return View();
-        }
-
-        // POST: StudentAttendanceController/Create
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public IEnumerable<StudentAttendanceDetailsModel> AddStudent(StudentAttendanceDetailsModel data)
         {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
+            _studentAttendanceDetails.Add(data);
 
-        // GET: StudentAttendanceController/Edit/5
-        public ActionResult Edit(int id)
-        {
-            return View();
-        }
-
-        // POST: StudentAttendanceController/Edit/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
-
-        // GET: StudentAttendanceController/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
-
-        // POST: StudentAttendanceController/Delete/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
+            return _studentAttendanceDetails;
         }
     }
 }

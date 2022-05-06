@@ -1,0 +1,28 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/StudentAttendance",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7156
+        }
+      ],
+      "UpstreamPathTemplate": "/apigateway/AttendanceService",
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/StudentAdmission",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7127
+        }
+      ],
+      "UpstreamPathTemplate": "/apigateway/AdmissionService",
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST" ]
+    }
+  ]
+}

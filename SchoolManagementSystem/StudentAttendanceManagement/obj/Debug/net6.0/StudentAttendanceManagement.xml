@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StudentAttendanceManagement</name>
+    </assembly>
+    <members>
+        <member name="M:StudentAttendanceManagement.Controllers.StudentAttendanceController.Get">
+            <summary>
+            Lấy dữ liệu danh sách sinh viên
+            </summary>
+            <returns>StudentAttendanceDetailsModel object</returns>
+            <remarks>
+            Sample request
+            
+                GET /api/StudentAttendance/Get
+            </remarks>
+        </member>
+    </members>
+</doc>
