@@ -1,0 +1,170 @@
+2022-05-15 21:56:43.917 +07:00 [INF] Now listening on: https://localhost:7175
+2022-05-15 21:56:43.968 +07:00 [INF] Now listening on: http://localhost:5175
+2022-05-15 21:56:43.974 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-15 21:56:43.976 +07:00 [INF] Hosting environment: Development
+2022-05-15 21:56:43.977 +07:00 [INF] Content root path: D:\WorkingCopy\UdemyNetCore-Assignment\OrderProcessing\OrderProcessing.Customer\
+2022-05-15 21:56:44.561 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7175/api/v1/Customer - -
+2022-05-15 21:56:44.705 +07:00 [INF] Executing endpoint 'OrderProcessing.Customer.Controllers.CustomerController.Get (OrderProcessing.Customer)'
+2022-05-15 21:56:44.733 +07:00 [INF] Route matched with {action = "Get", controller = "Customer"}. Executing controller action with signature Int32 Get() on controller OrderProcessing.Customer.Controllers.CustomerController (OrderProcessing.Customer).
+2022-05-15 21:56:44.764 +07:00 [INF] Executed action OrderProcessing.Customer.Controllers.CustomerController.Get (OrderProcessing.Customer) in 6.8306ms
+2022-05-15 21:56:44.773 +07:00 [INF] Executed endpoint 'OrderProcessing.Customer.Controllers.CustomerController.Get (OrderProcessing.Customer)'
+2022-05-15 21:56:44.781 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: This is test Exception occured on Customer API Controller
+   at OrderProcessing.Customer.Controllers.CustomerController.Get() in D:\WorkingCopy\UdemyNetCore-Assignment\OrderProcessing\OrderProcessing.Customer\Controllers\CustomerController.cs:line 29
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-05-15 21:56:44.988 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7175/api/v1/Customer - - - 500 - text/html;+charset=utf-8 430.4311ms
+2022-05-15 21:56:46.102 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - -
+2022-05-15 21:56:46.103 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7175/_vs/browserLink - -
+2022-05-15 21:56:46.123 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - - - 200 12018 application/javascript;+charset=utf-8 21.4008ms
+2022-05-15 21:56:46.168 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7175/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 68.6453ms
+2022-05-15 21:56:50.295 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7175/swagger/v1/swagger.json - -
+2022-05-15 21:56:50.490 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7175/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 194.9419ms
+2022-05-15 21:56:58.150 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7175/api/v1/Customer - -
+2022-05-15 21:56:58.158 +07:00 [INF] Executing endpoint 'OrderProcessing.Customer.Controllers.CustomerController.Get (OrderProcessing.Customer)'
+2022-05-15 21:56:58.160 +07:00 [INF] Route matched with {action = "Get", controller = "Customer"}. Executing controller action with signature Int32 Get() on controller OrderProcessing.Customer.Controllers.CustomerController (OrderProcessing.Customer).
+2022-05-15 21:56:58.163 +07:00 [INF] Executed action OrderProcessing.Customer.Controllers.CustomerController.Get (OrderProcessing.Customer) in 0.2807ms
+2022-05-15 21:56:58.165 +07:00 [INF] Executed endpoint 'OrderProcessing.Customer.Controllers.CustomerController.Get (OrderProcessing.Customer)'
+2022-05-15 21:56:58.167 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: This is test Exception occured on Customer API Controller
+   at OrderProcessing.Customer.Controllers.CustomerController.Get() in D:\WorkingCopy\UdemyNetCore-Assignment\OrderProcessing\OrderProcessing.Customer\Controllers\CustomerController.cs:line 29
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-05-15 21:56:58.190 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7175/api/v1/Customer - - - 500 - text/html;+charset=utf-8 39.2950ms
+2022-05-15 21:56:58.243 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7175/_vs/browserLink - -
+2022-05-15 21:56:58.244 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - -
+2022-05-15 21:56:58.246 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - - - 200 12018 application/javascript;+charset=utf-8 2.2014ms
+2022-05-15 21:56:58.254 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7175/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 10.9105ms
+2022-05-15 22:33:43.788 +07:00 [INF] Now listening on: https://localhost:7175
+2022-05-15 22:33:43.846 +07:00 [INF] Now listening on: http://localhost:5175
+2022-05-15 22:33:43.851 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-15 22:33:43.852 +07:00 [INF] Hosting environment: Development
+2022-05-15 22:33:43.853 +07:00 [INF] Content root path: D:\WorkingCopy\UdemyNetCore-Assignment\OrderProcessing\OrderProcessing.Customer\
+2022-05-15 22:33:45.039 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7175/swagger/index.html - -
+2022-05-15 22:33:45.546 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7175/swagger/index.html - - - 200 - text/html;charset=utf-8 513.1527ms
+2022-05-15 22:33:45.688 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - -
+2022-05-15 22:33:45.689 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7175/_vs/browserLink - -
+2022-05-15 22:33:45.697 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - - - 200 12018 application/javascript;+charset=utf-8 8.9095ms
+2022-05-15 22:33:46.116 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7175/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 427.3570ms
+2022-05-15 22:33:46.550 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7175/swagger/v1/swagger.json - -
+2022-05-15 22:33:46.739 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7175/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 188.5100ms
+2022-05-15 22:33:51.133 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7175/swagger/v1/swagger.json - -
+2022-05-15 22:33:51.140 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7175/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 6.8804ms
+2022-05-15 23:39:39.655 +07:00 [INF] Now listening on: https://localhost:7175
+2022-05-15 23:39:39.731 +07:00 [INF] Now listening on: http://localhost:5175
+2022-05-15 23:39:39.737 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-15 23:39:39.739 +07:00 [INF] Hosting environment: Development
+2022-05-15 23:39:39.740 +07:00 [INF] Content root path: D:\WorkingCopy\UdemyNetCore-Assignment\OrderProcessing\OrderProcessing.Customer\
+2022-05-15 23:39:45.907 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7175/swagger/index.html - -
+2022-05-15 23:39:46.076 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7175/swagger/index.html - - - 200 - text/html;charset=utf-8 170.6495ms
+2022-05-15 23:39:46.116 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - -
+2022-05-15 23:39:46.125 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7175/_vs/browserLink - -
+2022-05-15 23:39:46.145 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - - - 200 12018 application/javascript;+charset=utf-8 28.7624ms
+2022-05-15 23:39:46.168 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7175/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 42.4715ms
+2022-05-15 23:39:46.341 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7175/swagger/v1/swagger.json - -
+2022-05-15 23:39:46.447 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7175/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 105.7685ms
+2022-05-15 23:43:06.483 +07:00 [INF] Now listening on: https://localhost:7175
+2022-05-15 23:43:06.578 +07:00 [INF] Now listening on: http://localhost:5175
+2022-05-15 23:43:06.583 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-15 23:43:06.585 +07:00 [INF] Hosting environment: Development
+2022-05-15 23:43:06.586 +07:00 [INF] Content root path: D:\WorkingCopy\UdemyNetCore-Assignment\OrderProcessing\OrderProcessing.Customer\
+2022-05-15 23:43:07.317 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7175/swagger/index.html - -
+2022-05-15 23:43:07.626 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7175/swagger/index.html - - - 200 - text/html;charset=utf-8 318.0224ms
+2022-05-15 23:43:07.733 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7175/_vs/browserLink - -
+2022-05-15 23:43:07.733 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - -
+2022-05-15 23:43:07.745 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - - - 200 12018 application/javascript;+charset=utf-8 12.0280ms
+2022-05-15 23:43:07.893 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7175/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 160.2425ms
+2022-05-15 23:43:09.134 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7175/swagger/v1/swagger.json - -
+2022-05-15 23:43:09.368 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7175/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 234.0225ms
+2022-05-15 23:43:11.559 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7175/swagger/v1/swagger.json - -
+2022-05-15 23:43:11.566 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7175/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 7.1680ms
+2022-05-15 23:44:15.992 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7175/api/v1/Customer - -
+2022-05-15 23:44:16.001 +07:00 [INF] Executing endpoint 'OrderProcessing.Customer.Controllers.CustomerController.Get (OrderProcessing.Customer)'
+2022-05-15 23:44:16.010 +07:00 [INF] Route matched with {action = "Get", controller = "Customer"}. Executing controller action with signature Int32 Get() on controller OrderProcessing.Customer.Controllers.CustomerController (OrderProcessing.Customer).
+2022-05-15 23:44:16.020 +07:00 [INF] Executed action OrderProcessing.Customer.Controllers.CustomerController.Get (OrderProcessing.Customer) in 2.0505ms
+2022-05-15 23:44:16.023 +07:00 [INF] Executed endpoint 'OrderProcessing.Customer.Controllers.CustomerController.Get (OrderProcessing.Customer)'
+2022-05-15 23:44:16.027 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: This is test Exception occured on Customer API Controller
+   at OrderProcessing.Customer.Controllers.CustomerController.Get() in D:\WorkingCopy\UdemyNetCore-Assignment\OrderProcessing\OrderProcessing.Customer\Controllers\CustomerController.cs:line 29
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-05-15 23:44:16.099 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7175/api/v1/Customer - - - 500 - text/html;+charset=utf-8 107.1897ms
+2022-05-15 23:44:16.157 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7175/_vs/browserLink - -
+2022-05-15 23:44:16.158 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - -
+2022-05-15 23:44:16.163 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - - - 200 12018 application/javascript;+charset=utf-8 5.1141ms
+2022-05-15 23:44:16.170 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7175/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 13.7228ms
+2022-05-15 23:45:03.478 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7175/api/v1/Customer - -
+2022-05-15 23:45:03.480 +07:00 [INF] Executing endpoint 'OrderProcessing.Customer.Controllers.CustomerController.Get (OrderProcessing.Customer)'
+2022-05-15 23:45:03.482 +07:00 [INF] Route matched with {action = "Get", controller = "Customer"}. Executing controller action with signature Int32 Get() on controller OrderProcessing.Customer.Controllers.CustomerController (OrderProcessing.Customer).
+2022-05-15 23:45:03.490 +07:00 [INF] Executed action OrderProcessing.Customer.Controllers.CustomerController.Get (OrderProcessing.Customer) in 0.3826ms
+2022-05-15 23:45:03.492 +07:00 [INF] Executed endpoint 'OrderProcessing.Customer.Controllers.CustomerController.Get (OrderProcessing.Customer)'
+2022-05-15 23:45:03.494 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: This is test Exception occured on Customer API Controller
+   at OrderProcessing.Customer.Controllers.CustomerController.Get() in D:\WorkingCopy\UdemyNetCore-Assignment\OrderProcessing\OrderProcessing.Customer\Controllers\CustomerController.cs:line 29
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-05-15 23:45:03.518 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7175/api/v1/Customer - - - 500 - text/html;+charset=utf-8 39.8954ms

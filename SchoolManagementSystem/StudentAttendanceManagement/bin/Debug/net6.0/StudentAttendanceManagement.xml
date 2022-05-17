@@ -22,5 +22,11 @@
             <response code="200">Thật tuyệt vời không thể tin nỗi</response>
             <response code="500">Xong phin rồi, lo viết resignation letter đi pa</response>
         </member>
+        <member name="M:StudentAttendanceManagement.Controllers.StudentAttendanceController.Test">
+            <summary>
+            Chỗ này để test thôi chứ không có gì, hoàn toàn không có gì!!!
+            </summary>
+            <returns></returns>
+        </member>
     </members>
 </doc>

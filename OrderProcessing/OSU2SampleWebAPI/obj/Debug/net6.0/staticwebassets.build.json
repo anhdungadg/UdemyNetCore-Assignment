@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "5hsd7iN1tb4qk4TOjv/y2zqkF+c1gvZiy9yuT7M/7Bw=",
+  "Source": "OSU2SampleWebAPI",
+  "BasePath": "_content/OSU2SampleWebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

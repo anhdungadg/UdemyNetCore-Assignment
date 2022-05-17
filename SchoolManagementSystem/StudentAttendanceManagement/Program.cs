@@ -1,4 +1,7 @@
-﻿using System.Reflection;
+﻿using Microsoft.AspNetCore.Mvc;
+using System.Reflection;
+[assembly: ApiController]
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -40,7 +43,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI(options =>
     {
         options.DocumentTitle = "Tài liệu kỹ thuật API";
-        options.InjectStylesheet("/Assests/css/theme-newspaper.css");
+        options.InjectStylesheet("/Assests/css/theme-newspaper.css");   // Thanks https://ostranme.github.io/swagger-ui-themes/ for free beautiful theme
     });
 }
 

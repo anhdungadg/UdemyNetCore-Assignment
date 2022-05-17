@@ -1,0 +1,83 @@
+﻿{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/TestGTW",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7152
+        }
+      ],
+      "UpstreamPathTemplate": "/gtw/TestGTW",
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST" ]
+    },
+    
+    // Customer
+    {
+      "DownstreamPathTemplate": "/api/{version}/Customer",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7175
+        }
+      ],
+      "UpstreamPathTemplate": "/gtw/{version}/C",
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST" ],
+      "RateLimitOptions": {
+        "ClientWhiteList": [],
+        "EnableRateLimiting": true,
+        "Period": "1s",
+        "PeriodTimespan": 1,
+        "Limit": 1
+      },
+      //"AuthenticationOptions": {
+      //  "AuthenticationProviderKey": "IdentityApiKey",
+      //  "AllowedScopes": []
+      //},
+      "SwaggerKey": "customer"
+    },
+
+
+    // Product
+    {
+      "DownstreamPathTemplate": "/api/Product",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7079
+        }
+      ],
+      "UpstreamPathTemplate": "/gtw/P",
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST" ],
+      "RateLimitOptions": {
+        "ClientWhiteList": [],
+        "EnableRateLimiting": true,
+        "Period": "1s",
+        "PeriodTimespan": 1,
+        "Limit": 1
+      }
+    }
+  ],
+  "SwaggerEndPoints": [
+    {
+      "Key": "customer",
+      "Config": [
+        {
+          "Name": "Customer API",
+          "Version": "v1",
+          "Url": "https://localhost:7175/swagger/v1/swagger.json"
+        }
+      ]
+    }
+  ],
+
+  "GlobalConfiguration": {
+    "RateLimitOptions": {
+      "QuotaExceededMessage": "Xài gì xài dữ vậy pa,lỡ ngủm rồi ai giải trình đây!",
+      "HttpStatusCode": 999
+    }
+  }
+}

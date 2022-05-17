@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "0HJvZz+kSJvfBddWyQFQPum4NApHctv6wC9//HDqUAQ=",
+  "Source": "OrderProcessing.Gateway",
+  "BasePath": "_content/OrderProcessing.Gateway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "OrderProcessing.Gateway\\wwwroot",
+      "Source": "OrderProcessing.Gateway",
+      "ContentRoot": "D:\\WorkingCopy\\UdemyNetCore-Assignment\\OrderProcessing\\OrderProcessing.Gateway\\wwwroot\\",
+      "BasePath": "_content/OrderProcessing.Gateway",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\WorkingCopy\\UdemyNetCore-Assignment\\OrderProcessing\\OrderProcessing.Gateway\\wwwroot\\Assests\\css\\theme-newspaper.css",
+      "SourceId": "OrderProcessing.Gateway",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\WorkingCopy\\UdemyNetCore-Assignment\\OrderProcessing\\OrderProcessing.Gateway\\wwwroot\\",
+      "BasePath": "_content/OrderProcessing.Gateway",
+      "RelativePath": "Assests/css/theme-newspaper.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Assests\\css\\theme-newspaper.css"
+    },
+    {
+      "Identity": "D:\\WorkingCopy\\UdemyNetCore-Assignment\\OrderProcessing\\OrderProcessing.Gateway\\wwwroot\\Assests\\img\\4373227_houzz_logo_logos_icon.png",
+      "SourceId": "OrderProcessing.Gateway",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\WorkingCopy\\UdemyNetCore-Assignment\\OrderProcessing\\OrderProcessing.Gateway\\wwwroot\\",
+      "BasePath": "_content/OrderProcessing.Gateway",
+      "RelativePath": "Assests/img/4373227_houzz_logo_logos_icon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Assests\\img\\4373227_houzz_logo_logos_icon.png"
+    }
+  ]
+}

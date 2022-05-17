@@ -1,7 +1,7 @@
 {
   "Routes": [
     {
-      "DownstreamPathTemplate": "/api/StudentAttendance",
+      "DownstreamPathTemplate": "/api/StudentAttendance/{url}",
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
@@ -9,8 +9,15 @@
           "Port": 7156
         }
       ],
-      "UpstreamPathTemplate": "/apigateway/AttendanceService",
-      "UpstreamHttpMethod": [ "GET", "PUT", "POST" ]
+      "UpstreamPathTemplate": "/apigateway/AttendanceService/{url}",
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST" ],
+      "RateLimitOptions": {
+        "ClientWhiteList": [],
+        "EnableRateLimiting": true,
+        "Period": "1s",
+        "PeriodTimespan": 1,
+        "Limit": 1
+      }
     },
     {
       "DownstreamPathTemplate": "/api/StudentAdmission",
@@ -22,7 +29,20 @@
         }
       ],
       "UpstreamPathTemplate": "/apigateway/AdmissionService",
-      "UpstreamHttpMethod": [ "GET", "PUT", "POST" ]
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST" ],
+      "RateLimitOptions": {
+        "ClientWhiteList": [],
+        "EnableRateLimiting": true,
+        "Period": "1s",
+        "PeriodTimespan": 1,
+        "Limit": 1
+      }
     }
-  ]
+  ],
+  "GlobalConfiguration": {
+    "RateLimitOptions": {
+      "QuotaExceededMessage": "Xài gì xài dữ vậy pa,lỡ ngủm rồi ai giải trình đây!",
+      "HttpStatusCode":  999
+    }
+  }
 }

@@ -8,7 +8,7 @@ namespace StudentAttendanceManagement.Controllers
     /// </summary>
     [ApiController]
     [Route("api/[controller]/[action]")]
-    //[Route("[controller]")]
+    //[Route("api/[controller]")]
     public class StudentAttendanceController : ControllerBase
     {
         private static List<StudentAttendanceDetailsModel> _studentAttendanceDetails= new List<StudentAttendanceDetailsModel>();
@@ -53,5 +53,16 @@ namespace StudentAttendanceManagement.Controllers
 
             return _studentAttendanceDetails;
         }
+
+        /// <summary>
+        /// Chỗ này để test thôi chứ không có gì, hoàn toàn không có gì!!!
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet]
+        public IActionResult Test()
+        {
+            return NotFound("OK Thật mà");
+        }
+
     }
 }
