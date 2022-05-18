@@ -65,3 +65,4 @@ E:\WorkingCopy\UdemyNetCore\MangoRestaurant-practice\src\MangoRestaurant\Service
 E:\WorkingCopy\UdemyNetCore\MangoRestaurant-practice\src\MangoRestaurant\Services\Mango.Services.ProductAPI\obj\Debug\net6.0\ref\Mango.Services.ProductAPI.dll
 E:\WorkingCopy\UdemyNetCore\MangoRestaurant-practice\src\MangoRestaurant\Services\Mango.Services.ProductAPI\bin\Debug\net6.0\Serilog.dll
 E:\WorkingCopy\UdemyNetCore\MangoRestaurant-practice\src\MangoRestaurant\Services\Mango.Services.ProductAPI\bin\Debug\net6.0\Serilog.Sinks.Console.dll
+E:\WorkingCopy\UdemyNetCore\MangoRestaurant-practice\src\MangoRestaurant\Services\Mango.Services.ProductAPI\bin\Debug\net6.0\Mango.Services.ProductAPI.staticwebassets.runtime.json

@@ -1,11 +1,37 @@
 {
   "Version": 1,
-  "Hash": "WHy163NFvM1007n7zY3tTpRfactJkDWOaKKc3aAPvAA=",
+  "Hash": "xorN7wsaBhVzKwVck6b5A4M6ENP+4I/CBgh49x2P0ik=",
   "Source": "Mango.Services.ProductAPI",
   "BasePath": "_content/Mango.Services.ProductAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "Mango.Services.ProductAPI\\wwwroot",
+      "Source": "Mango.Services.ProductAPI",
+      "ContentRoot": "E:\\WorkingCopy\\UdemyNetCore\\MangoRestaurant-practice\\src\\MangoRestaurant\\Services\\Mango.Services.ProductAPI\\wwwroot\\",
+      "BasePath": "_content/Mango.Services.ProductAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "E:\\WorkingCopy\\UdemyNetCore\\MangoRestaurant-practice\\src\\MangoRestaurant\\Services\\Mango.Services.ProductAPI\\wwwroot\\Assests\\css\\theme-newspaper.css",
+      "SourceId": "Mango.Services.ProductAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\WorkingCopy\\UdemyNetCore\\MangoRestaurant-practice\\src\\MangoRestaurant\\Services\\Mango.Services.ProductAPI\\wwwroot\\",
+      "BasePath": "_content/Mango.Services.ProductAPI",
+      "RelativePath": "Assests/css/theme-newspaper.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Assests\\css\\theme-newspaper.css"
+    }
+  ]
 }

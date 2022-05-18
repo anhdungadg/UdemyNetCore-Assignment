@@ -10,7 +10,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 Log.Logger = CreateSerilogLogger(builder.Configuration);
 
-Log.Information("Starting web host");
+Log.Information("Starting web host ({ApplicationContext})...", "Ahuhu");
 
 
 // Add services to the container.
