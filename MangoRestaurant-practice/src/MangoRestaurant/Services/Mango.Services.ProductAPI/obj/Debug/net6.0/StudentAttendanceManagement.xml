@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StudentAttendanceManagement</name>
+    </assembly>
+    <members>
+        <member name="T:StudentAttendanceManagement.Controllers.StudentAttendanceController">
+            <summary>
+            Controller của Student Attendance
+            </summary>
+        </member>
+        <member name="M:StudentAttendanceManagement.Controllers.StudentAttendanceController.Get">
+            <summary>
+            Lấy dữ liệu danh sách sinh viên
+            </summary>
+            <returns>StudentAttendanceDetailsModel object</returns>
+            <remarks>
+            Sample request
+            
+                GET /api/StudentAttendance/Get
+            </remarks>
+            <response code="200">Thật tuyệt vời không thể tin nỗi</response>
+            <response code="500">Xong phin rồi, lo viết resignation letter đi pa</response>
+        </member>
+        <member name="M:StudentAttendanceManagement.Controllers.StudentAttendanceController.Test">
+            <summary>
+            Chỗ này để test thôi chứ không có gì, hoàn toàn không có gì!!!
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

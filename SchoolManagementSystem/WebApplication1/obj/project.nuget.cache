@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "m9uCbqV/YvmMvdbzwU27USMp1C6x9TDOwYMG1Eaj6JU/nhCdWaa7W9K9s7xFI7QjRRyKileaSVEwjMLPZ6uawQ==",
+  "success": true,
+  "projectFilePath": "D:\\WorkingCopy\\UdemyNetCore-Assignment\\SchoolManagementSystem\\WebApplication1\\WebApplication1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cscss\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.14.0\\microsoft.visualstudio.azure.containers.tools.targets.1.14.0.nupkg.sha512"
+  ],
+  "logs": []
+}

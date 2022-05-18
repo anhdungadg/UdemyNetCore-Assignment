@@ -1,0 +1,155 @@
+2022-05-16 10:04:26.807 +07:00 [INF] Configuring web host (OrderProcessing.Gateway)...
+2022-05-16 10:04:43.400 +07:00 [INF] requestId: 0HMHMT35MVUGV:0000001B, previousRequestId: no previous request id, message: No authentication needed for /gtw/v1/C
+2022-05-16 10:04:43.408 +07:00 [INF] requestId: 0HMHMT35MVUGV:0000001B, previousRequestId: no previous request id, message: /api/{version}/Customer route does not require user to be authorized
+2022-05-16 10:04:43.641 +07:00 [WRN] requestId: 0HMHMT35MVUGV:0000001B, previousRequestId: no previous request id, message: 500 (Internal Server Error) status code, request uri: https://localhost:7175/api/v1/Customer
+2022-05-16 10:04:43.654 +07:00 [INF] HTTP GET /gtw/v1/C responded 404 in 1.1732 ms
+2022-05-16 10:04:43.741 +07:00 [ERR] System.Exception: This is test Exception occured on Customer API Controller
+   at OrderProcessing.Customer.Controllers.CustomerController.Get() in D:\WorkingCopy\UdemyNetCore-Assignment\OrderProcessing\OrderProcessing.Customer\Controllers\CustomerController.cs:line 29
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeFilterPipelineAsync&gt;g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.&lt;Invoke&gt;g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)</pre>
+                            
+2022-05-16 10:05:59.170 +07:00 [INF] Configuring web host (OrderProcessing.Gateway)...
+2022-05-16 10:06:14.028 +07:00 [INF] requestId: 0HMHMT40S0JPF:00000017, previousRequestId: no previous request id, message: No authentication needed for /gtw/v1/C
+2022-05-16 10:06:14.036 +07:00 [INF] requestId: 0HMHMT40S0JPF:00000017, previousRequestId: no previous request id, message: /api/{version}/Customer route does not require user to be authorized
+2022-05-16 10:06:14.173 +07:00 [WRN] requestId: 0HMHMT40S0JPF:00000017, previousRequestId: no previous request id, message: 500 (Internal Server Error) status code, request uri: https://localhost:7175/api/v1/Customer
+2022-05-16 10:06:14.183 +07:00 [INF] HTTP GET /gtw/v1/C responded 404 in 1.2311 ms
+2022-05-16 10:06:14.221 +07:00 [ERR] System.Exception: This is test Exception occured on Customer API Controller
+   at OrderProcessing.Customer.Controllers.CustomerController.Get() in D:\WorkingCopy\UdemyNetCore-Assignment\OrderProcessing\OrderProcessing.Customer\Controllers\CustomerController.cs:line 29
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeFilterPipelineAsync&gt;g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.&lt;Invoke&gt;g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)</pre>
+                      
+2022-05-16 10:07:48.281 +07:00 [INF] Configuring web host (OrderProcessing.Gateway)...
+2022-05-16 10:07:57.432 +07:00 [INF] requestId: 0HMHMT51G3R1T:00000017, previousRequestId: no previous request id, message: No authentication needed for /gtw/v1/C
+2022-05-16 10:07:57.438 +07:00 [INF] requestId: 0HMHMT51G3R1T:00000017, previousRequestId: no previous request id, message: /api/{version}/Customer route does not require user to be authorized
+2022-05-16 10:07:57.557 +07:00 [WRN] requestId: 0HMHMT51G3R1T:00000017, previousRequestId: no previous request id, message: 500 (Internal Server Error) status code, request uri: https://localhost:7175/api/v1/Customer
+2022-05-16 10:07:57.564 +07:00 [INF] HTTP GET /gtw/v1/C responded 404 in 0.4337 ms
+2022-05-16 10:07:57.598 +07:00 [ERR] System.Exception: This is test Exception occured on Customer API Controller
+   at OrderProcessing.Customer.Controllers.CustomerController.Get() in D:\WorkingCopy\UdemyNetCore-Assignment\OrderProcessing\OrderProcessing.Customer\Controllers\CustomerController.cs:line 29
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeFilterPipelineAsync&gt;g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.&lt;Invoke&gt;g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-05-16 10:13:17.681 +07:00 [INF] Configuring web host (OrderProcessing.Gateway)...
+2022-05-16 10:13:56.562 +07:00 [INF] requestId: 0HMHMT83L4Q4R:00000017, previousRequestId: no previous request id, message: No authentication needed for /gtw/v1/C
+2022-05-16 10:13:56.571 +07:00 [INF] requestId: 0HMHMT83L4Q4R:00000017, previousRequestId: no previous request id, message: /api/{version}/Customer route does not require user to be authorized
+2022-05-16 10:13:56.721 +07:00 [WRN] requestId: 0HMHMT83L4Q4R:00000017, previousRequestId: no previous request id, message: 500 (Internal Server Error) status code, request uri: https://localhost:7175/api/v1/Customer
+2022-05-16 10:13:56.728 +07:00 [INF] HTTP GET /gtw/v1/C responded 404 in 0.5145 ms
+2022-05-16 10:13:56.764 +07:00 [ERR] System.Exception: This is test Exception occured on Customer API Controller
+   at OrderProcessing.Customer.Controllers.CustomerController.Get() in D:\WorkingCopy\UdemyNetCore-Assignment\OrderProcessing\OrderProcessing.Customer\Controllers\CustomerController.cs:line 29
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeFilterPipelineAsync&gt;g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.&lt;Invoke&gt;g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+System.Exception: Oops! Ahuhu
+2022-05-16 10:18:52.202 +07:00 [INF] Configuring web host (OrderProcessing.Gateway)...
+2022-05-16 10:19:01.965 +07:00 [INF] requestId: 0HMHMTB7J3AHS:00000017, previousRequestId: no previous request id, message: No authentication needed for /gtw/v1/C
+2022-05-16 10:19:01.974 +07:00 [INF] requestId: 0HMHMTB7J3AHS:00000017, previousRequestId: no previous request id, message: /api/{version}/Customer route does not require user to be authorized
+2022-05-16 10:19:02.120 +07:00 [WRN] requestId: 0HMHMTB7J3AHS:00000017, previousRequestId: no previous request id, message: 500 (Internal Server Error) status code, request uri: https://localhost:7175/api/v1/Customer
+2022-05-16 10:19:02.129 +07:00 [INF] HTTP GET /gtw/v1/C responded 404 in 0.5542 ms
+2022-05-16 10:19:02.170 +07:00 [ERR] Đã có lỗi xảy ra
+System.Exception: System.Exception: This is test Exception occured on Customer API Controller
+   at OrderProcessing.Customer.Controllers.CustomerController.Get() in D:\WorkingCopy\UdemyNetCore-Assignment\OrderProcessing\OrderProcessing.Customer\Controllers\CustomerController.cs:line 29
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeFilterPipelineAsync&gt;g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.&lt;Invoke&gt;g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-05-16 10:47:51.922 +07:00 [INF] Configuring web host (OrderProcessing.Gateway)...
+2022-05-16 10:48:02.531 +07:00 [INF] requestId: 0HMHMTRDD8V2P:00000017, previousRequestId: no previous request id, message: No authentication needed for /gtw/v1/C
+2022-05-16 10:48:02.538 +07:00 [INF] requestId: 0HMHMTRDD8V2P:00000017, previousRequestId: no previous request id, message: /api/{version}/Customer route does not require user to be authorized
+2022-05-16 10:48:02.679 +07:00 [WRN] requestId: 0HMHMTRDD8V2P:00000017, previousRequestId: no previous request id, message: 500 (Internal Server Error) status code, request uri: https://localhost:7175/api/v1/Customer
+2022-05-16 10:48:02.688 +07:00 [INF] HTTP GET /gtw/v1/C responded 404 in 0.7151 ms
+2022-05-16 10:48:02.731 +07:00 [ERR] An Error Occurred
+System.Exception: System.Exception: This is test Exception occured on Customer API Controller
+   at OrderProcessing.Customer.Controllers.CustomerController.Get() in D:\WorkingCopy\UdemyNetCore-Assignment\OrderProcessing\OrderProcessing.Customer\Controllers\CustomerController.cs:line 29
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeFilterPipelineAsync&gt;g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.&lt;Invoke&gt;g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)

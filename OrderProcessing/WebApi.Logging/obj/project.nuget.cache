@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "1CVOsyBIqmPI5bnmtUiiYtJOM1PhXKcqMBKKNkvGnE0MFt1v9D+UhDqt93hVmRVo6A82KmuzBO7Vld4bcC3gpQ==",
+  "success": true,
+  "projectFilePath": "D:\\WorkingCopy\\UdemyNetCore-Assignment\\OrderProcessing\\WebApi.Logging\\WebApi.Logging.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cscss\\.nuget\\packages\\serilog\\2.11.0\\serilog.2.11.0.nupkg.sha512",
+    "C:\\Users\\cscss\\.nuget\\packages\\serilog.sinks.file\\5.0.0\\serilog.sinks.file.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
