@@ -2,7 +2,7 @@
 
 namespace Mango.Services.ProductAPI.Models.DTOs
 {
-    public class Product
+    public class ProductDTO
     {
         [Key]
         public int ProductId { get; set; }
