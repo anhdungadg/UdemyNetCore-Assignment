@@ -213,11 +213,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\WorkingCopy\\UdemyNetCore-Assignment\\OrderProcessing\\OrderProcessing.Product\\OrderProcessing.Product.csproj",
+      "projectUniqueName": "E:\\WorkingCopy\\UdemyNetCore\\OrderProcessing\\OrderProcessing.Product\\OrderProcessing.Product.csproj",
       "projectName": "OrderProcessing.Product",
-      "projectPath": "D:\\WorkingCopy\\UdemyNetCore-Assignment\\OrderProcessing\\OrderProcessing.Product\\OrderProcessing.Product.csproj",
+      "projectPath": "E:\\WorkingCopy\\UdemyNetCore\\OrderProcessing\\OrderProcessing.Product\\OrderProcessing.Product.csproj",
       "packagesPath": "C:\\Users\\cscss\\.nuget\\packages\\",
-      "outputPath": "D:\\WorkingCopy\\UdemyNetCore-Assignment\\OrderProcessing\\OrderProcessing.Product\\obj\\",
+      "outputPath": "E:\\WorkingCopy\\UdemyNetCore\\OrderProcessing\\OrderProcessing.Product\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\cscss\\AppData\\Roaming\\NuGet\\NuGet.Config",
