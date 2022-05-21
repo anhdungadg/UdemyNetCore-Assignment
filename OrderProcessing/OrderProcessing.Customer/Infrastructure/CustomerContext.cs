@@ -2,7 +2,7 @@
 
 namespace OrderProcessing.Customer.Infrastructure
 {
-    public class CustomerContext: DbContext
+    public class CustomerContext
     {
     }
 }

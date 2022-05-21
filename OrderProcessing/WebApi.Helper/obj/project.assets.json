@@ -190,11 +190,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\WorkingCopy\\UdemyNetCore\\OrderProcessing\\WebApi.Helper\\WebApi.Helper.csproj",
+      "projectUniqueName": "D:\\WorkingCopy\\UdemyNetCore-Assignment\\OrderProcessing\\WebApi.Helper\\WebApi.Helper.csproj",
       "projectName": "WebApi.Helper",
-      "projectPath": "E:\\WorkingCopy\\UdemyNetCore\\OrderProcessing\\WebApi.Helper\\WebApi.Helper.csproj",
+      "projectPath": "D:\\WorkingCopy\\UdemyNetCore-Assignment\\OrderProcessing\\WebApi.Helper\\WebApi.Helper.csproj",
       "packagesPath": "C:\\Users\\cscss\\.nuget\\packages\\",
-      "outputPath": "E:\\WorkingCopy\\UdemyNetCore\\OrderProcessing\\WebApi.Helper\\obj\\",
+      "outputPath": "D:\\WorkingCopy\\UdemyNetCore-Assignment\\OrderProcessing\\WebApi.Helper\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\cscss\\AppData\\Roaming\\NuGet\\NuGet.Config",

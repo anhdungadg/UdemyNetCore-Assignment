@@ -8265,11 +8265,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\WorkingCopy\\UdemyNetCore\\OrderProcessing\\OrderProcessing.Gateway\\OrderProcessing.Gateway.csproj",
+      "projectUniqueName": "D:\\WorkingCopy\\UdemyNetCore-Assignment\\OrderProcessing\\OrderProcessing.Gateway\\OrderProcessing.Gateway.csproj",
       "projectName": "OrderProcessing.Gateway",
-      "projectPath": "E:\\WorkingCopy\\UdemyNetCore\\OrderProcessing\\OrderProcessing.Gateway\\OrderProcessing.Gateway.csproj",
+      "projectPath": "D:\\WorkingCopy\\UdemyNetCore-Assignment\\OrderProcessing\\OrderProcessing.Gateway\\OrderProcessing.Gateway.csproj",
       "packagesPath": "C:\\Users\\cscss\\.nuget\\packages\\",
-      "outputPath": "E:\\WorkingCopy\\UdemyNetCore\\OrderProcessing\\OrderProcessing.Gateway\\obj\\",
+      "outputPath": "D:\\WorkingCopy\\UdemyNetCore-Assignment\\OrderProcessing\\OrderProcessing.Gateway\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\cscss\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8286,8 +8286,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\WorkingCopy\\UdemyNetCore\\OrderProcessing\\WebApi.Helper\\WebApi.Helper.csproj": {
-              "projectPath": "E:\\WorkingCopy\\UdemyNetCore\\OrderProcessing\\WebApi.Helper\\WebApi.Helper.csproj"
+            "D:\\WorkingCopy\\UdemyNetCore-Assignment\\OrderProcessing\\WebApi.Helper\\WebApi.Helper.csproj": {
+              "projectPath": "D:\\WorkingCopy\\UdemyNetCore-Assignment\\OrderProcessing\\WebApi.Helper\\WebApi.Helper.csproj"
             }
           }
         }
