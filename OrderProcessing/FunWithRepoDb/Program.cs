@@ -35,19 +35,26 @@ có oán thì báo oán. Vợ chồng cha mẹ anh em là duyên nợ, có duyê
 
 using FunWithRepoDb;
 using FunWithRepoDb.Repository;
-
+using FunWithRepoDb.Infrastructure;
 
 RepoDb.SqlServerBootstrap.Initialize();
 var mapper = MappingConfig.RegisterMaps();
 var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
+ApplicationDbContext.ConnectionString = connectionString;
+
 // Add services to the container.
 builder.Services.AddControllers();
 
+// RepoDb
+//builder.Services.AddSingleton(new ApplicationRepository(connectionString));
+builder.Services.AddSingleton<IProductRepository>(new ProductRepository(connectionString));
+
+
 builder.Services.AddSingleton(mapper);
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
-builder.Services.AddScoped<IProductRepository, ProductRepository>();
+//builder.Services.AddScoped<IProductRepository, ProductRepository>();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

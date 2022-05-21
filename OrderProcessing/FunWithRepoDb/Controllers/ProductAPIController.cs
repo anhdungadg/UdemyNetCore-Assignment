@@ -36,5 +36,22 @@ namespace FunWithRepoDb.Controllers
 
             return _response;
         }
+
+        [HttpGet]
+        [Route("{id}")]
+        public async Task<object> GetById(int id)
+        {
+            try
+            {
+                _response.Result = await _productRepository.GetById(id);
+            }
+            catch (Exception ex)
+            {
+                _response.IsSuccess = false;
+                _response.ErrorMessage = new List<string>() { ex.Message.ToString() };
+            }
+
+            return _response;
+        }
     }
 }

@@ -6,5 +6,7 @@ namespace FunWithRepoDb.Repository
     {
         Task<IEnumerable<ProductDTO>> GetAll();
         Task<ProductDTO> GetById(int id);
+
+        Task<ProductDTO> CreateAndUpdate(ProductDTO productDTO);
     }
 }
