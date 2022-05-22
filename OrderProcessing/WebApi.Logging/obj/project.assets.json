@@ -92,11 +92,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\WorkingCopy\\UdemyNetCore-Assignment\\OrderProcessing\\WebApi.Logging\\WebApi.Logging.csproj",
+      "projectUniqueName": "E:\\WorkingCopy\\UdemyNetCore\\OrderProcessing\\WebApi.Logging\\WebApi.Logging.csproj",
       "projectName": "WebApi.Logging",
-      "projectPath": "D:\\WorkingCopy\\UdemyNetCore-Assignment\\OrderProcessing\\WebApi.Logging\\WebApi.Logging.csproj",
+      "projectPath": "E:\\WorkingCopy\\UdemyNetCore\\OrderProcessing\\WebApi.Logging\\WebApi.Logging.csproj",
       "packagesPath": "C:\\Users\\cscss\\.nuget\\packages\\",
-      "outputPath": "D:\\WorkingCopy\\UdemyNetCore-Assignment\\OrderProcessing\\WebApi.Logging\\obj\\",
+      "outputPath": "E:\\WorkingCopy\\UdemyNetCore\\OrderProcessing\\WebApi.Logging\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\cscss\\AppData\\Roaming\\NuGet\\NuGet.Config",
