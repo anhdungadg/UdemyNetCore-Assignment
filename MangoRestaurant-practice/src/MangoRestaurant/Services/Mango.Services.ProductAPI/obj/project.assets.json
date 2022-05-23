@@ -2267,11 +2267,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\WorkingCopy\\UdemyNetCore-Assignment\\MangoRestaurant-practice\\src\\MangoRestaurant\\Services\\Mango.Services.ProductAPI\\Mango.Services.ProductAPI.csproj",
+      "projectUniqueName": "E:\\WorkingCopy\\UdemyNetCore\\MangoRestaurant-practice\\src\\MangoRestaurant\\Services\\Mango.Services.ProductAPI\\Mango.Services.ProductAPI.csproj",
       "projectName": "Mango.Services.ProductAPI",
-      "projectPath": "D:\\WorkingCopy\\UdemyNetCore-Assignment\\MangoRestaurant-practice\\src\\MangoRestaurant\\Services\\Mango.Services.ProductAPI\\Mango.Services.ProductAPI.csproj",
+      "projectPath": "E:\\WorkingCopy\\UdemyNetCore\\MangoRestaurant-practice\\src\\MangoRestaurant\\Services\\Mango.Services.ProductAPI\\Mango.Services.ProductAPI.csproj",
       "packagesPath": "C:\\Users\\cscss\\.nuget\\packages\\",
-      "outputPath": "D:\\WorkingCopy\\UdemyNetCore-Assignment\\MangoRestaurant-practice\\src\\MangoRestaurant\\Services\\Mango.Services.ProductAPI\\obj\\",
+      "outputPath": "E:\\WorkingCopy\\UdemyNetCore\\MangoRestaurant-practice\\src\\MangoRestaurant\\Services\\Mango.Services.ProductAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\cscss\\AppData\\Roaming\\NuGet\\NuGet.Config",

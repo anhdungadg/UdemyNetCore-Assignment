@@ -48,7 +48,7 @@ namespace FunWithRepoDb.Controllers
             catch (Exception ex)
             {
                 _response.IsSuccess = false;
-                _response.ErrorMessage = new List<string>() { ex.Message.ToString() };
+                _response.ErrorMessage = new List<string>() { ex.ToString() };
             }
 
             return _response;

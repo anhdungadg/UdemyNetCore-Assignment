@@ -2,6 +2,7 @@
 using System.Data;
 using Microsoft.Data.SqlClient;
 
+
 namespace FunWithRepoDb.Infrastructure
 {
     public static class ApplicationDbContext
