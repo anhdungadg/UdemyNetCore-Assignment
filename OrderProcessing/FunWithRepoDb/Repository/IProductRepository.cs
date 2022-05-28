@@ -8,5 +8,7 @@ namespace FunWithRepoDb.Repository
         Task<ProductDTO> GetById(int id);
 
         Task<ProductDTO> CreateAndUpdate(ProductDTO productDTO);
+
+        Task<object> DoWhatEverYouWant();
     }
 }

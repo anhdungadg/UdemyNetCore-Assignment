@@ -52,7 +52,13 @@ namespace FunWithRepoDb.Repository
 
             return result;
         }
-
         
+        public async Task<object> DoWhatEverYouWant()
+        {
+            using (var conn = new SqlConnection(_connectionString))
+            {
+                return conn.ExecuteNonQuery("insert into [MangoProductAPI].[dbo].[Products] (Name, ImageUrl, Price, Description, CategoryName) VALUES ('Test1', '', 0, 'Ahuhu', 'DKM')");
+            }
+        }
     }
 }

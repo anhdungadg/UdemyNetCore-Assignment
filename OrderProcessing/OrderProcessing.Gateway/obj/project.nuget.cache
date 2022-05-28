@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QUwHFkJw6fgbAOY+BHjNprNedrpDuZFERIn0+RvKNmeoIP9EAV1g07clq+ZYLqVuiECUCnHcmuA6K3wSKcg/Uw==",
+  "dgSpecHash": "nuBnB8w6oPmFvN8Ufp+LAaGyvHLhaCZozJ582uQTydgX6otvElNaKG54EBciKEAe5hDBfoBJp07II5PuUFjq8Q==",
   "success": true,
-  "projectFilePath": "E:\\WorkingCopy\\UdemyNetCore\\OrderProcessing\\OrderProcessing.Gateway\\OrderProcessing.Gateway.csproj",
+  "projectFilePath": "D:\\WorkingCopy\\UdemyNetCore-Assignment\\OrderProcessing\\OrderProcessing.Gateway\\OrderProcessing.Gateway.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cscss\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
     "C:\\Users\\cscss\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
