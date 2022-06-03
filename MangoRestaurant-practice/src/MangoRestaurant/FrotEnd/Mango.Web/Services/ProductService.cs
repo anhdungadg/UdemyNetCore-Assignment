@@ -1,33 +1,71 @@
 ﻿using Mango.Web.Models;
 using Mango.Web.Services.IServices;
+using System.Net.Http;
+
 
 namespace Mango.Web.Services
 {
     public class ProductService : BaseService, IProductService
     {
-        public Task<T> CreateProductAsync<T>(ProductDTO productDTO)
+        private readonly IHttpClientFactory _httpClientFactory;
+
+        public ProductService(IHttpClientFactory httpClientFactory): base(httpClientFactory)
         {
-            throw new NotImplementedException();
+            _httpClientFactory = httpClientFactory;
         }
 
-        public Task<T> DeleteProductAsync<T>(int id)
+        
+        public async Task<T> CreateProductAsync<T>(ProductDTO productDTO)
         {
-            throw new NotImplementedException();
+            return await this.SendAsync<T>(new ApiRequest()
+            {
+                ApiType = SD.ApiType.POST,
+                Data = productDTO,
+                Url = SD.ProductAPIBase + "/api/products",
+                AccessToken = ""
+            });
+            
         }
 
-        public Task<T> GetAllProductsAsync<T>()
+        public async Task<T> DeleteProductAsync<T>(int id)
         {
-            throw new NotImplementedException();
+            return await this.SendAsync<T>(new ApiRequest()
+            {
+                ApiType = SD.ApiType.DELETE,
+                Url = SD.ProductAPIBase + "/api/products/" + id,
+                AccessToken = ""
+            });
         }
 
-        public Task<T> GetProductByIdAsync<T>(int id)
+        public async Task<T> GetAllProductsAsync<T>()
         {
-            throw new NotImplementedException();
+            return await this.SendAsync<T>(new ApiRequest()
+            {
+                ApiType = SD.ApiType.GET,
+                Url = SD.ProductAPIBase + "/api/products",
+                AccessToken = ""
+            });
         }
 
-        public Task<T> UpdateProductAsync<T>(ProductDTO productDTO)
+        public async Task<T> GetProductByIdAsync<T>(int id)
         {
-            throw new NotImplementedException();
+            return await this.SendAsync<T>(new ApiRequest()
+            {
+                ApiType = SD.ApiType.GET,
+                Url = SD.ProductAPIBase + "/api/products/" + id,
+                AccessToken = ""
+            });
+        }
+
+        public async Task<T> UpdateProductAsync<T>(ProductDTO productDTO)
+        {
+            return await this.SendAsync<T>(new ApiRequest()
+            {
+                ApiType = SD.ApiType.PUT,
+                Data = productDTO,
+                Url = SD.ProductAPIBase + "/api/products",
+                AccessToken = ""
+            });
         }
     }
 }

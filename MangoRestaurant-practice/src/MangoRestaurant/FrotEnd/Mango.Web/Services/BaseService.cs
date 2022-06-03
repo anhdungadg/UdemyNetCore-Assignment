@@ -18,12 +18,12 @@ namespace Mango.Web.Services
             httpClientFactory = httpClient;
         }
 
-        void Dispose()
+        public void Dispose()
         {
             GC.SuppressFinalize(this);
         }
 
-        async Task<T> IBaseService.SendAsync<T>(ApiRequest apiRequest)
+        public async Task<T> SendAsync<T>(ApiRequest apiRequest)
         {
             try
             {
