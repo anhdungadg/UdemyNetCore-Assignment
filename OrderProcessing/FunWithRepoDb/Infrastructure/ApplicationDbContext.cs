@@ -29,5 +29,7 @@ namespace FunWithRepoDb.Infrastructure
                 return conn.ExecuteQuery<TResult>(commandText, param, commandType);
             }
         }
+
+        
     }
 }

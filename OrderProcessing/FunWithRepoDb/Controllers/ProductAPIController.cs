@@ -7,7 +7,7 @@ using FunWithRepoDb.Repository;
 
 namespace FunWithRepoDb.Controllers
 {
-    [Route("api/products")]
+    [Route("api/[controller]/[action]")]
     [ApiController]
     public class ProductAPIController : ControllerBase
     {
@@ -49,6 +49,25 @@ namespace FunWithRepoDb.Controllers
             {
                 _response.IsSuccess = false;
                 _response.ErrorMessage = new List<string>() { ex.ToString() };
+<<<<<<< HEAD
+=======
+            }
+
+            return _response;
+        }
+
+        [HttpGet]
+        public async Task<object> DoWhatEverYouWant()
+        {
+            try
+            {
+                _response.Result = await _productRepository.DoWhatEverYouWant();
+            }
+            catch (Exception ex)
+            {
+                _response.IsSuccess = false;
+                _response.ErrorMessage = new List<string>() { ex.ToString() };
+>>>>>>> 06d4721750cfa735cab54777d360bf867d935773
             }
 
             return _response;
